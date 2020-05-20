@@ -1,0 +1,86 @@
+
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: Comic Sans MS;
+	font-size:14px;
+	color: black;
+}
+.navbar-default {
+	background:grey;
+	border-bottom: 2px solid #000000;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: grey;
+	border: 2px solid white;
+}
+
+.navbar-brand {
+	font-size:170%;
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+.container-fluid {
+	margin-left: 15px;
+}
+
+.navbar-default .navbar-brand {
+	color: black;
+}
+
+.navbar-default .navbar-toggle {
+	border: 2px solid black;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-top: 2px solid black;
+}
+
+.navbar-nav {
+	background:white;
+}
+
+li {
+	border-bottom: 2px solid #000000;
+	text-align: center;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: black;
+}
+
+h2 {
+	font-size:200%;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 15px;
+}
+.row {
+	width: 99%;
+	background: grey;
+	margin-left: 1%;
+}
+.title {
+	font-size:125%;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+p{
+	margin-bottom: 40px;
+}
